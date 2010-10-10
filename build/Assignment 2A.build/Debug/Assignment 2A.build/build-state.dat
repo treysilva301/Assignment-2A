@@ -1,7 +1,7 @@
 TAssignment 2A
 v7
 r0
-t308188822.471303
+t308442904.870330
 cCheck dependencies
 cProcessPCH "/var/folders/41/41KdE7ufE98JTX3Wjs9VgE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Assignment 2A_Prefix-flunofavwfcapqgadfcdpzvmrxhk/Assignment 2A_Prefix.pch.gch" "Assignment 2A_Prefix.pch" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/WhatATool.o" "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -41,22 +41,24 @@ s168
 i<Foundation/Foundation.h>
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.h
-c000000004CAE505F00000000000000F0
-t1286492255
-s240
+c000000004CB2372700000000000002D5
+t1286747943
+s725
 i<Cocoa/Cocoa.h>
+i<Foundation/Foundation.h>
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m
-c000000004CAE702900000000000001B1
-t1286500393
-s433
+c000000004CB234C00000000000000897
+t1286747328
+s2199
 i"PolygonShape.h"
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m
-c000000004CA914100000000000000B39
-t1286149136
-s2873
+c000000004CB23E600000000000000F15
+t1286749792
+s3861
 i<Foundation/Foundation.h>
+i"PolygonShape.h"
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/Assignment 2A.LinkFileList
 c000000004CAE5F12000000000000011F
@@ -68,20 +70,20 @@ t2
 s0
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/PolygonShape.o
-t1286496022
-s5488
+t1286747943
+s19580
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/WhatATool.o
-t1286496021
-s17512
+t1286749793
+s20004
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/untitled.o
 t2
 s0
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A
-t1286496022
-s15176
+t1286749793
+s21960
 
 N/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/untitled.h
 c000000004CAE500A00000000000000E8
@@ -101,14 +103,14 @@ s41401104
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies308188818#308188818#0(0"0(0#1#0"32651513917735028#0"0#
+lSLF07#2@18"Check dependencies308442904#308442904#0(0"0(0#1#0"8610319072#0"0#
 
 CCompileC "build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/Assignment 2A.o" "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/Assignment 2A.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC "build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/PolygonShape.o" "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s308188821.642737
-e308188822.087762
+s308440743.392743
+e308440743.838878
 r1
 xCompileC
 xbuild/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/PolygonShape.o
@@ -117,11 +119,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m308188821#308188822#0(0"0(0#0#70"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m8599302336#1797"    cd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-generated-files.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-own-target-headers.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-all-target-headers.hmap" -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-project-headers.hmap" "-F/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/include" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources/x86_64" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources" -include "/var/folders/41/41KdE7ufE98JTX3Wjs9VgE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Assignment 2A_Prefix-flunofavwfcapqgadfcdpzvmrxhk/Assignment 2A_Prefix.pch" -c "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m" -o "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/PolygonShape.o"0#
+lSLF07#2@78"Compile /Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m308440743#308440743#0(0"0(0#0#70"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m8612814272#1797"    cd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-generated-files.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-own-target-headers.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-all-target-headers.hmap" -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-project-headers.hmap" "-F/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/include" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources/x86_64" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources" -include "/var/folders/41/41KdE7ufE98JTX3Wjs9VgE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Assignment 2A_Prefix-flunofavwfcapqgadfcdpzvmrxhk/Assignment 2A_Prefix.pch" -c "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/PolygonShape.m" -o "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/PolygonShape.o"0#
 
 CCompileC "build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/WhatATool.o" "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s308188821.641735
-e308188821.915459
+s308442592.696673
+e308442593.466455
 r1
 xCompileC
 xbuild/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/WhatATool.o
@@ -131,26 +133,26 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m: In function 'PrintIntrospectionInfo':
-o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:72: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSURL *'
-o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:75: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'
-o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: 'NSObject' may not respond to '-lowercaseString'
-o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: (Messages without a matching method signature
-o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: will be assumed to return 'id' and accept
-o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: '...' as arguments.)
-lSLF07#2@75"Compile /Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m308188821#308188821#0(943"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m: In function 'PrintIntrospectionInfo':/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:72: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSURL *'/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:75: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: 'NSObject' may not respond to '-lowercaseString'/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: (Messages without a matching method signature/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: will be assumed to return 'id' and accept/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:93: warning: '...' as arguments.)4(22@90"Incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSURL *'308188821#107#172#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m307841936#72#0#72#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@100"Incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'308188821#279#182#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m307841936#75#0#75#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@48"'NSObject' may not respond to '-lowercaseString'308188821#461#130#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m307841936#93#0#93#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)308188821#591#127#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m307841936#93#0#93#0#0"0(0#0#67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m7939128661845044224#1791"    cd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-generated-files.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-own-target-headers.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-all-target-headers.hmap" -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-project-headers.hmap" "-F/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/include" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources/x86_64" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources" -include "/var/folders/41/41KdE7ufE98JTX3Wjs9VgE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Assignment 2A_Prefix-flunofavwfcapqgadfcdpzvmrxhk/Assignment 2A_Prefix.pch" -c "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m" -o "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/WhatATool.o"0#
+o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:76: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSURL *'
+o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:79: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'
+o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: 'NSObject' may not respond to '-lowercaseString'
+o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: (Messages without a matching method signature
+o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: will be assumed to return 'id' and accept
+o/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: '...' as arguments.)
+lSLF07#2@75"Compile /Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m308442592#308442593#0(943"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m: In function 'PrintIntrospectionInfo':/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:76: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSURL *'/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:79: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: 'NSObject' may not respond to '-lowercaseString'/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: (Messages without a matching method signature/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: will be assumed to return 'id' and accept/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m:97: warning: '...' as arguments.)4(22@90"Incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSURL *'308442593#107#172#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m308442592#76#0#76#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@100"Incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'308442593#279#182#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m308442592#79#0#79#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@48"'NSObject' may not respond to '-lowercaseString'308442593#461#130#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m308442592#97#0#97#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)308442593#591#127#0(6@67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m308442592#97#0#97#0#0"0(0#0#67"/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m8617705696#1791"    cd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-generated-files.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-own-target-headers.hmap" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-all-target-headers.hmap" -iquote "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Assignment 2A-project-headers.hmap" "-F/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/include" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources/x86_64" "-I/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/DerivedSources" -include "/var/folders/41/41KdE7ufE98JTX3Wjs9VgE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Assignment 2A_Prefix-flunofavwfcapqgadfcdpzvmrxhk/Assignment 2A_Prefix.pch" -c "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/WhatATool.m" -o "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/WhatATool.o"0#
 
 CCompileC "build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/untitled.o" "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/untitled.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CLd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A" normal x86_64
-s308188822.087866
-e308188822.471214
+s308442593.466533
+e308442593.486962
 r1
 xLd
 x/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A
 xnormal
 xx86_64
-lSLF07#2@86"Link /Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A308188822#308188822#0(0"0(0#0#0"8599264736#639"    cd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" "-F/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" -filelist "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/Assignment 2A.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -o "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A"0#
+lSLF07#2@86"Link /Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A308442593#308442593#0(0"0(0#0#0"8616209184#639"    cd "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" "-F/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug" -filelist "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Assignment 2A.build/Debug/Assignment 2A.build/Objects-normal/x86_64/Assignment 2A.LinkFileList" -mmacosx-version-min=10.6 -framework Foundation -o "/Users/Trey/Documents/UT/Fall 2010/CS370W/Assignment-2A/build/Debug/Assignment 2A"0#
 
 CProcessPCH "/var/folders/41/41KdE7ufE98JTX3Wjs9VgE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Assignment 2A_Prefix-flunofavwfcapqgadfcdpzvmrxhk/Assignment 2A_Prefix.pch.gch" "Assignment 2A_Prefix.pch" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s308188818.370266

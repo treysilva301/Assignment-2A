@@ -24,4 +24,10 @@
 @property (readonly) float angleInRadians;
 @property (readonly) NSString *name;
 
+-(id) init;
+-(id) initWithNumberOfSides:(int)sides minimumNumberOfSides:(int)min maximumNumberOfSides:(int)max;
+-(void) description;
+-(void) dealloc;
+
+
 @end

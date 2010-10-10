@@ -17,6 +17,7 @@
 
 - (id)init
 {
+
 	numberOfSides = 5;
 	minimumNumberOfSides = 3;
 	maximumNumberOfSides = 10;
@@ -47,7 +48,7 @@
 
 - (void)setMinimumNumberOfSides:(int)value
 {
-	if (value <= 2) {
+	if (value < 3) {
 		NSLog(@"Invalid number of sides: %d is less than the minimum of %d allowed.", value, 2);
 	}
 	else {
@@ -97,6 +98,8 @@
 -(void) dealloc
 {
 	NSLog(@"Dealloc has been used.");
+	
+	[super dealloc];
 }
 
 @end

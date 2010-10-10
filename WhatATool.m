@@ -1,10 +1,12 @@
 #import <Foundation/Foundation.h>
+#import "PolygonShape.h"
 
 
 void PrintPathInfo();			// Section 1
 void PrintProcessInfo();		// Section 2
 void PrintBookmarkInfo();		// Section 3
 void PrintIntrospectionInfo();	// Section 4
+void PrintPolygonInfo();        // Section 6
 
 
 int main (int argc, const char * argv[]) {
@@ -14,6 +16,8 @@ int main (int argc, const char * argv[]) {
 	PrintProcessInfo();		// Section 2
 	PrintBookmarkInfo();		// Section 3
 	PrintIntrospectionInfo();	// Section 4
+	PrintPolygonInfo();       //Section 6
+
 	
 	[pool release];
     return 0;
@@ -95,5 +99,37 @@ void PrintIntrospectionInfo(){
 
 		
 	}
+		
 
+}
+void PrintPolygonInfo(){
+	NSMutableArray *polygonArr = [[NSMutableArray alloc] init];
+	
+	PolygonShape *polygon1 = [[PolygonShape alloc] initWithNumberOfSides: 4 minimumNumberOfSides:3 maximumNumberOfSides:7];
+	PolygonShape *polygon2 = [[PolygonShape alloc] initWithNumberOfSides: 6 minimumNumberOfSides:5 maximumNumberOfSides:9];
+	PolygonShape *polygon3 = [[PolygonShape alloc] init];
+	[polygon3 setNumberOfSides: 12 ];
+	[polygon3 setMinimumNumberOfSides: 9];
+	[polygon3 setMaximumNumberOfSides: 12];
+	
+	[polygonArr addObject:polygon1];
+	[polygon1 description];
+	[polygonArr addObject:polygon2];
+	[polygon2 description];
+	[polygonArr addObject:polygon3];
+	[polygon3 description];
+	 
+	for(PolygonShape *element in polygonArr){
+		[element setNumberOfSides:10];
+		
+	}
+	[polygon1 release];
+	[polygon2 release];
+	[polygon3 release];
+	
+	
+	[polygonArr release];
+							 
+						
+	
 }
